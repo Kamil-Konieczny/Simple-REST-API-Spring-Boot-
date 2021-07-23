@@ -17,7 +17,11 @@ import javax.persistence.*;
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private Long id;
 
-        public Long getId() {
+    public Book() {
+
+    }
+
+    public Long getId() {
             return id;
         }
 
